@@ -27,8 +27,4 @@ public abstract class AbstractCommandReceiver<T extends Command> {
 		return command;
 	}
 
-	public void setCommand(T command) {
-		this.command = command;
-	}
-
 }

@@ -13,6 +13,8 @@ public class LeaderImpl extends AbstractLeader {
 	
 	private Object conditionBean;
 	
+	private Object valueBean;
+	
 	public LeaderImpl() {
 		this.resultReceiver = this;
 	}
@@ -45,4 +47,13 @@ public class LeaderImpl extends AbstractLeader {
 	public void setResultReceiver(ResultReceiver resultReceiver) {
 		this.resultReceiver = resultReceiver;
 	}
+
+	public Object getValueBean() {
+		return valueBean;
+	}
+
+	public void setValueBean(Object valueBean) {
+		this.valueBean = valueBean;
+	}
+
 }
